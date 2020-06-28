@@ -21,12 +21,15 @@ TODO
 All Part one requirements plus
 <ul>
   <li>The system should check for bad user input</li>
-  <li>The system should store the deck as a list of Cards</li>
-  <li>The system should represent a card as a Suit and Rank</li>
-  <li>The system should represent Suit, Rank, and Move as Enums</li>
+  <li>The system should represent Move as an Enum</li>
   <li>The system asks the user to HIT, STAND, DOUBLE, or SPLIT</li>
   <li>The user receives another card if they choose to HIT or DOUBLE</li>
   <li>The system splits the user's hand into to hands if they split</li>
+  <li>The system should store the deck as a list of Cards</li>
+  ```diff
+  - <li>Bonus: The system should represent a card as a Suit and Rank (Requires Classes)</li>
+  - <li>Bonus: The system should represent Suit, Rank, and Move as Enums</li>
+  ```
 </ul>
 <h3>Mock Ups</h3>
 TODO
