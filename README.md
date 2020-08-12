@@ -41,6 +41,7 @@ Dealer Hand: A of D, 6 of D, 7 of H
 Your Hand: 10 of C, 9 of S
 
 Dealer Bust! You win!
+Play again (y/n): n
 
 <h2>Part Two</h2>
 <h3>Requirements</h3>
@@ -50,10 +51,62 @@ All Part one requirements plus
   <li>The system should represent Move as an Enum</li>
   <li>The system asks the user to HIT, STAND, DOUBLE, or SPLIT</li>
   <li>The user receives another card if they choose to HIT or DOUBLE</li>
-  <li>The system splits the user's hand into to hands if they split</li>
+  <li>The user can split if they are dealt two cards of the same rank</li>
+  <li>The system splits the user's hand into two hands if they split</li>
   <li>The system should store the deck as a list of Cards</li>
   <li>Bonus: The system should represent a card as a Suit and Rank (Requires Classes)</li>
   <li>Bonus: The system should represent Suit, Rank, and Move as Enums</li>
 </ul>
 <h3>Mock Ups</h3>
-TODO
+
+Dealer Hand: A of D
+Your Hand: 2 of C, 9 of H
+
+Your Move: DOUBLE
+
+Dealer Hand: A of D
+Your Hand: 2 of C, 9 of H, 7 of H
+
+Your Move: STAND
+
+Dealer Hand: K of D, 7 of D
+Your Hand: 2 of C, 9 of H, 7 of H
+
+Dealer must Stand! You win!
+Play again (y/n): y
+
+Dealer Hand: K of D
+Your Hand: 9 of C, 9 of H
+
+Your Move: SPLIT
+
+Dealer Hand: K of D
+Your First Hand: 9 of C
+Your Second Hand: 9 of H
+
+Your Move: HIT
+
+Dealer Hand: K of D
+Your First Hand: 9 of C, J of S
+Your Second Hand: 9 of H
+
+Your Move: STAND
+
+Dealer Hand: K of D
+Your First Hand: 9 of C, J of S
+Your Second Hand: 9 of H, 6 of S
+
+Your Move: HIT
+
+Dealer Hand: K of D
+Your First Hand: 9 of C, J of S
+Your Second Hand: 9 of H, 6 of S, 9 of S
+
+Your Second Hand Bust!
+
+Dealer Hand: K of D, 7 of D
+Your First Hand: 9 of C, J of S
+Your Second Hand: 9 of H, 6 of S, 9 of S
+
+Dealer must Stand! You win!
+Play again (y/n): n
