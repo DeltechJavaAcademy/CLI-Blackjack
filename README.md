@@ -9,12 +9,38 @@ You will create a Blackjack game in the command line.
   <li>The system should deal two random cards from the deck to both the dealer and player</li>
   <li>The user can view one of the cards the dealer was dealt</li>
   <li>The user can view the two cards they were dealt</li>
-  <li>The sytem asks the user to HIT or STAND until they BUST or choose to STAND</li>
+  <li>The user can HIT or STAND until they BUST or choose to STAND</li>
   <li>The user receives another card if they choose to HIT</li>
   <li>The system deals the dealer cards until they BUST, cards total 17+, or they beat the players hand</li>
+  <li>The user can choose to play again or quit</li>
 </ul>
 <h3>Mock Ups</h3>
-TODO
+
+Dealer Hand: A of D
+Your Hand: 2 of C, 3 of H
+
+Your Move: HIT
+
+Dealer Hand: A of D
+Your Hand: 2 of C, 3 of H, 10 of H
+
+Your Move: HIT
+
+Dealer Hand: A of D
+Your Hand: 2 of C, 3 of H, 10 of H, K of S
+
+BUST! Dealer Wins!
+Play again (y/n): y
+
+Dealer Hand: K of C
+Your Hand: 10 of C, 9 of S
+
+Your Move: STAND
+
+Dealer Hand: A of D, 6 of D, 7 of H
+Your Hand: 10 of C, 9 of S
+
+Dealer Bust! You win!
 
 <h2>Part Two</h2>
 <h3>Requirements</h3>
