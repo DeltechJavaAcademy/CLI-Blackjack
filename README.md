@@ -53,9 +53,8 @@ All Part one requirements plus
   <li>The user receives another card if they choose to HIT or DOUBLE</li>
   <li>The user can split if they are dealt two cards of the same rank</li>
   <li>The system splits the user's hand into two hands if they split</li>
-  <li>The system should store the deck as a list of Cards</li>
   <li>Bonus: The system should represent a card as a Suit and Rank (Requires Classes)</li>
-  <li>Bonus: The system should represent Suit, Rank, and Move as Enums</li>
+  <li>Bonus: The system should represent Suit and Rank as Enums</li>
 </ul>
 <h3>Mock Ups</h3>
 
